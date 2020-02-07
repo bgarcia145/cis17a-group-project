@@ -65,6 +65,10 @@ if (answer == 'Y'|| answer == 'y')
             cout<<"The price for this Class is $4.99\n";
             cout<<"Would you like to sign up for this class? (Y/N)\n";
             cin >> addQ;
+            if (addQ == 'Y' || addQ == 'y')
+            {
+              cout<<"You have added this class to your membership";
+            }
           break;
             }
           if (choice == 2)
@@ -76,6 +80,10 @@ if (answer == 'Y'|| answer == 'y')
             cout<<"The price for this Class is $5.50\n";
             cout<<"Would you like to sign up for this class? (Y/N)\n";
             cin >> addQ;
+            if (addQ == 'Y' || addQ == 'y')
+            {
+              cout<<"You have added this class to your membership";
+            }
           break;
             }  
           if (choice == 3)
@@ -87,6 +95,10 @@ if (answer == 'Y'|| answer == 'y')
             cout<<"The price for this Class is $6.50\n";
             cout<<"Would you like to sign up for this class? (Y/N)\n";
             cin >> addQ;
+            if (addQ == 'Y' || addQ == 'y')
+            {
+              cout<<"You have added this class to your membership";
+            }
           break;
             }  
           if (choice == 4)
@@ -98,6 +110,10 @@ if (answer == 'Y'|| answer == 'y')
             cout<<"The price for this Class is $7.00\n";
             cout<<"Would you like to sign up for this class? (Y/N)\n";
             cin >> addQ;
+            if (addQ == 'Y' || addQ == 'y')
+            {
+              cout<<"You have added this class to your membership";
+            }
           break;
             }  
           if (choice == 5)
