@@ -5,8 +5,8 @@
 #include <fstream>
 using namespace std;
 void introduction(string firstName, string lastName);
-void sum(double cardio, double yoga, double weightTraining, double zumba,double personalTrainer);
-
+void lastFinal (string firstName, string lastName);
+double total = 0;
 int main() {
  string firstName,lastName,cardio,yoga,weightTraining,zumba,personalTrainer, category;
  char answer, addQ;
@@ -79,6 +79,8 @@ else
               reciept << "Mondays & Wednesdays\t\t 2:00PM to 3:30PM\n"; //output schedule to the receipt.
               reciept << classes[0][0] << " ";
               reciept << classes[1][0] << endl;
+
+              total += 4.99;
             }
           break;
             }
@@ -175,10 +177,10 @@ else
        } while (addQ == 'Y' || addQ == 'y'); //while addQ == 'Y', do-while will perform.
 
 
-       cout << "\n\n\nreview goes here (function/pointer?)\n\n\n";
-
+       lastFinal(firstName, lastName);
   }
 
+      cout << "\n\n\nreview goes here /after a no in add. prgm \n\n\n";
 return 0;
 }
 
@@ -191,4 +193,9 @@ void introduction(string firstName, string lastName) //function prototype introd
   cout<< "Please enter your last name:\n";
   cin >> lastName;
   cout << "Welcome "<<firstName<<" "<<lastName<<","<< endl;
+}
+
+void lastFinal (string firstName, string lastName)
+{
+cout << total << endl;
 }
