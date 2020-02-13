@@ -1,3 +1,5 @@
+//Names: rigo Salazar, Brian Garcia, Chris Avila. CIS17A
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -176,11 +178,13 @@ else
              
        } while (addQ == 'Y' || addQ == 'y'); //while addQ == 'Y', do-while will perform.
 
-
+       else
+       {
        lastFinal(firstName, lastName);
+       }
   }
 
-      cout << "\n\n\nreview goes here /after a no in add. prgm \n\n\n";
+      //cout << "\n\n\nreview goes here /after a no in add. prgm \n\n\n";
 return 0;
 }
 
@@ -197,5 +201,6 @@ void introduction(string firstName, string lastName) //function prototype introd
 
 void lastFinal (string firstName, string lastName)
 {
+cout << "Here is your summary:\n";
 cout << total << endl;
 }
